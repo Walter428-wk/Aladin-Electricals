@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Request Sent | Aladin Electrical Services</title>
+  <meta name="description" content="Your quote request has been sent to Aladin Electrical Services.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy-980: #05101f;
+      --navy-950: #081729;
+      --white: #ffffff;
+      --slate-300: #b8cae6;
+      --yellow: #ffd64a;
+      --yellow-deep: #ffbf1f;
+      --shadow-lg: 0 28px 80px rgba(0, 0, 0, 0.24);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      color: var(--white);
+      background:
+        radial-gradient(circle at 10% 15%, rgba(255, 214, 74, 0.14), transparent 22%),
+        linear-gradient(180deg, #06111f 0%, #081729 40%, #0b203a 100%);
+    }
+    .card {
+      width: min(100%, 720px);
+      padding: 40px;
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.04));
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: var(--shadow-lg);
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 214, 74, 0.12);
+      color: var(--yellow);
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.82rem;
+    }
+    h1 {
+      font-family: "Outfit", sans-serif;
+      font-size: clamp(2.3rem, 5vw, 3.6rem);
+      line-height: 1.02;
+      margin: 18px 0 14px;
+    }
+    p {
+      color: var(--slate-300);
+      font-size: 1.03rem;
+      line-height: 1.7;
+    }
+    .actions {
+      margin-top: 28px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 22px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--yellow), var(--yellow-deep));
+      color: var(--navy-980);
+    }
+    .btn-secondary {
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: rgba(255, 255, 255, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <span class="badge">Request Sent</span>
+    <h1>Thank you. Your quote request has been received.</h1>
+    <p>Our team will review your request and get back to you as soon as possible. For urgent electrical help in Nairobi, you can also call or WhatsApp us directly.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="index.html">Back to Website</a>
+      <a class="btn btn-secondary" href="tel:+254713297245">Call +254 713 297 245</a>
+    </div>
+  </main>
+</body>
+</html>
